@@ -1,8 +1,29 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app), using the [Redux](https://redux.js.org/) and [Redux Toolkit](https://redux-toolkit.js.org/) template.
 
+##Доступные аккаунты
+
+---------------------
+
+### Админ
+
+### `login:` admin
+### `password:` admin
+
+---------------------
+
+### Пользователь
+
+### `login:` guest
+### `password:` guest
+
+---------------------
+
 ## Available Scripts
 
 In the project directory, you can run:
+### `npm serve`
+
+Starts the server and the client
 
 ### `npm start`
 
