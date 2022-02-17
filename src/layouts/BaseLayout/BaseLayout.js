@@ -5,6 +5,7 @@ import Logo from "../../components/Logo";
 import classNames from "classnames";
 import LoginButton from "../../components/LoginModal/LoginButton";
 import LoginModal from "../../components/LoginModal";
+import {Error} from "../../components/Error/Error";
 
 export const BaseLayout = () => {
     const navLinks = [
@@ -19,6 +20,7 @@ export const BaseLayout = () => {
     ]
     return (
         <div className={styles.container}>
+            <Error/>
             <header className={styles.header}>
                 <Logo className={
                     classNames(
@@ -46,7 +48,9 @@ export const BaseLayout = () => {
                     <LoginModal/>
                 </div>
             </header>
-            <Outlet/>
+            <main>
+                <Outlet/>
+            </main>
         </div>
-)
+    )
 }

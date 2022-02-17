@@ -8,13 +8,13 @@ import {ModalState} from "./context/modal/ModalState";
 
 ReactDOM.render(
     <React.StrictMode>
-        <Provider store={index}>
             <ModalState>
-                <BrowserRouter>
-                    <App/>
-                </BrowserRouter>
+                <Provider store={index}>
+                    <BrowserRouter>
+                        <App/>
+                    </BrowserRouter>
+                </Provider>
             </ModalState>
-        </Provider>
     </React.StrictMode>,
     document.getElementById('root')
 );

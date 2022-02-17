@@ -15,266 +15,54 @@
       "password": "1234qwe"
     }
   ],
-  "articles": [
+  "news": [
     {
-      "source": {
-        "id": "reuters",
-        "name": "Reuters"
-      },
-      "author": null,
+      "id": 1,
       "title": "Apple fights $27.5 mln legal fee request in California class action - Reuters",
       "description": "Apple Inc has asked a judge to reject a request for $27.5 million in legal fees from a law firm that represented plaintiffs in a $95 million settlement of a consumer class action lawsuit alleging deceptive AppleCare warranty practices.",
       "url": "https://www.reuters.com/legal/litigation/apple-fights-275-mln-legal-fee-request-california-class-action-2022-02-14/",
-      "urlToImage": "https://www.reuters.com/resizer/GJr9R9aDLPWxw30_sDbfRRmVvQ4=/728x381/smart/filters:quality(80)/cloudfront-us-east-2.images.arcpublishing.com/reuters/36C6IM7ZPFOQBDEWEFEKX3K5UA.jpg",
-      "publishedAt": "2022-02-14T18:48:00Z",
-      "content": "(Reuters) - Apple Inc has asked a judge to reject a request for $27.5 million in legal fees from a law firm that represented plaintiffs in a $95 million settlement of a consumer class action lawsuit … [+2761 chars]"
+      "createdAt": "16.02.2022",
+      "isApproved": true
     },
     {
-      "source": {
-        "id": "reuters",
-        "name": "Reuters"
-      },
-      "author": null,
-      "title": "Deal on EU tech rules possible by June, key lawmaker says - Reuters",
-      "description": "European Union lawmakers and countries could reach a deal by the end of June on proposed tech rules forcing online platforms to better police the internet despite differences in their approach, the lawmaker steering the negotiations said on Monday.",
-      "url": "https://www.reuters.com/technology/deal-eu-tech-rules-possible-by-june-key-lawmaker-says-2022-02-14/",
-      "urlToImage": "https://www.reuters.com/resizer/WVaWTeqsFR4Y2O2r_yRGERpUl54=/1200x628/smart/filters:quality(80)/cloudfront-us-east-2.images.arcpublishing.com/reuters/QTXDKX64FNLTVDTVQW3UJQZQNU.jpg",
-      "publishedAt": "2022-02-14T16:57:00Z",
-      "content": "BRUSSELS, Feb 14 (Reuters) - European Union lawmakers and countries could reach a deal by the end of June on proposed tech rules forcing online platforms to better police the internet despite differe… [+1944 chars]"
-    },
-    {
-      "source": {
-        "id": "reuters",
-        "name": "Reuters"
-      },
-      "author": null,
-      "title": "Big banks, Splunk, BioDelivery, Amesite - Reuters",
-      "description": "Wall Street futures slid on Monday, as rising geopolitical tensions between Russia and the West posed a double whammy for investors already worried about aggressive policy tightening by the Federal Reserve to combat surging inflation.",
-      "url": "https://www.reuters.com/markets/asia/big-banks-splunk-biodelivery-amesite-2022-02-14/",
-      "urlToImage": "https://www.reuters.com/pf/resources/images/reuters/reuters-default.png?d=74",
-      "publishedAt": "2022-02-14T12:47:00Z",
-      "content": "Wall Street futures slid on Monday, as rising geopolitical tensions between Russia and the West posed a double whammy for investors already worried about aggressive policy tightening by the Federal R… [+1222 chars]"
-    },
-    {
-      "source": {
-        "id": "reuters",
-        "name": "Reuters"
-      },
-      "author": null,
-      "title": "Futures slide on fears of potential Russian attack on Ukraine - Reuters",
-      "description": "U.S. stock index futures fell nearly 1% on Monday, pointing to a fresh round of declines on Wall Street with investors rattled by warnings that Russia could invade Ukraine at any time.",
-      "url": "https://www.reuters.com/business/futures-slide-fears-potential-russian-attack-ukraine-2022-02-14/",
-      "urlToImage": "https://www.reuters.com/resizer/9aR_EmDG39RWeuU35NW_1Rd4DXU=/1200x628/smart/filters:quality(80)/cloudfront-us-east-2.images.arcpublishing.com/reuters/W342GFS4E5LRTHSRKVBWVOTUVA.jpg",
-      "publishedAt": "2022-02-14T10:45:00Z",
-      "content": "Feb 14 (Reuters) - U.S. stock index futures fell nearly 1% on Monday, pointing to a fresh round of declines on Wall Street with investors rattled by warnings that Russia could invade Ukraine at any t… [+1410 chars]"
-    },
-    {
-      "source": {
-        "id": "reuters",
-        "name": "Reuters"
-      },
-      "author": null,
+      "id": 5,
       "title": "iPhone maker Foxconn to make chips in India with Vedanta - Reuters",
-      "description": "Taiwan's Foxconn <a href=\"https://www.reuters.com/companies/2317.TW\" target=\"_blank\">(2317.TW)</a> said on Monday it had partnered with Indian conglomerate Vedanta Ltd <a href=\"https://www.reuters.com/companies/VDAN.NS\" target=\"_blank\">(VDAN.NS)</a> to make s…",
+      "description": "iPhone maker Foxconn to make chips in India with Vedanta - Reuters",
       "url": "https://www.reuters.com/technology/iphone-maker-foxconn-make-chips-india-with-vedanta-2022-02-14/",
-      "urlToImage": "https://www.reuters.com/resizer/okclLP6JUOUReKpsh8P46R92C-I=/1200x628/smart/filters:quality(80)/cloudfront-us-east-2.images.arcpublishing.com/reuters/O6BX2EYA75NFLMN45KWDYDQCN4.jpg",
-      "publishedAt": "2022-02-14T12:56:00Z",
-      "content": "TAIPEI, Feb 14 (Reuters) - Taiwan's Foxconn (2317.TW) said on Monday it had partnered with Indian conglomerate Vedanta Ltd (VDAN.NS) to make semiconductors in the South Asian country, as the electron… [+1583 chars]"
+      "createdAt": "16.02.2022",
+      "isApproved": true
     },
     {
-      "source": {
-        "id": "reuters",
-        "name": "Reuters"
-      },
-      "author": null,
-      "title": "In relief for retailers, Vietnam won't close factories amid COVID surge - Reuters",
-      "description": "Vietnamese factories making everything from shoes to smartphones are expected to continue production despite record COVID-19 infections, reversing a policy of sweeping lockdowns last year that hobbled global supply chains for Western retailers.",
-      "url": "https://www.reuters.com/world/asia-pacific/relief-retailers-vietnam-wont-close-factories-amid-covid-surge-2022-02-14/",
-      "urlToImage": "https://www.reuters.com/pf/resources/images/reuters/reuters-default.png?d=74",
-      "publishedAt": "2022-02-14T05:58:00Z",
-      "content": "HANOI, Feb 14 (Reuters) - Vietnamese factories making everything from shoes to smartphones are expected to continue production despite record COVID-19 infections, reversing a policy of sweeping lockd… [+4530 chars]"
+      "id": 7,
+      "title": "iPhone maker Foxconn to make chips in India with Vedanta - Reuters",
+      "description": "iPhone maker Foxconn to make chips in India with Vedanta - Reuters",
+      "url": "https://www.reuters.com/technology/iphone-maker-foxconn-make-chips-india-with-vedanta-2022-02-14/",
+      "createdAt": "16.02.2022",
+      "isApproved": true
     },
     {
-      "source": {
-        "id": null,
-        "name": "Android Central"
-      },
-      "author": "Shruti Shekar",
-      "title": "Samsung's S22 camera is taking advantage of a major demographic",
-      "description": "The company understands the value of the younger generation\n\nSamsung believes consumers aren't as concerned with professional filmmaking from their phones, as much as Apple does, some experts believe and they say that's okay. They add that Samsung is targetin…",
-      "url": "https://www.androidcentral.com/samsung-apple-camera-galaxy-s22",
-      "urlToImage": "https://www.androidcentral.com/sites/androidcentral.com/files/styles/large/public/article_images/2022/02/samsung-galaxy-s22-ultra-camera-lenses-hold.jpg",
-      "publishedAt": "2022-02-14T12:55:01Z",
-      "content": "Source: Nick Sutrich / Android Central\r\nSamsung believes consumers aren't as concerned with professional filmmaking from their phones, as much as Apple does, some experts believe and they say that's … [+7268 chars]"
+      "id": 8,
+      "title": "iPhone maker Foxconn to make chips in India with Vedanta - Reuters",
+      "description": "iPhone maker Foxconn to make chips in India with Vedanta - Reuters",
+      "url": "https://www.reuters.com/technology/iphone-maker-foxconn-make-chips-india-with-vedanta-2022-02-14/",
+      "createdAt": "16.02.2022",
+      "isApproved": true
     },
     {
-      "source": {
-        "id": null,
-        "name": "Android Central"
-      },
-      "author": "Michael L Hicks",
-      "title": "Is the Garmin Venu 2 Plus or Fitbit Sense better for health and fitness?",
-      "description": "Easy-to-use workout workhorse\n\nGarmin Venu 2 Plus\n\n\n\n$450 at Amazon\n\nPros\n\n\nGPS, NFC, HRM, SpO2\nBeautiful AMOLED display\nThree buttons for navigation\nAnimated HIIT workouts\nIn-depth Garmin metrics don't require subscription\nUp to nine days battery life\n\n\nCons…",
-      "url": "https://www.androidcentral.com/garmin-venu-2-plus-vs-fitbit-sense",
-      "urlToImage": "https://www.androidcentral.com/sites/androidcentral.com/files/styles/large/public/article_images/2022/02/garmin-venu-2-plus-vs.-fitbit-sense.jpg",
-      "publishedAt": "2022-02-14T13:00:02Z",
-      "content": "The Garmin Venu 2 Plus offers heart rate and blood oxygen monitoring, sleep and stress tracking, fitness age and Body Battery scores, a daily Health Snapshot, and other health tools. For fitness, you… [+10702 chars]"
+      "id": 9,
+      "title": "iPhone maker Foxconn to make chips in India with Vedanta - Reuters",
+      "description": "iPhone maker Foxconn to make chips in India with Vedanta - Reuters",
+      "url": "https://www.reuters.com/technology/iphone-maker-foxconn-make-chips-india-with-vedanta-2022-02-14/",
+      "createdAt": "16.02.2022",
+      "isApproved": false
     },
     {
-      "source": {
-        "id": null,
-        "name": "The Guardian"
-      },
-      "author": "Presented by Max Rushden with Jonathan Wilson, Troy Townsend and Paul MacInnes. Produced by Joel Grove and executive produced by Danielle Stephens.",
-      "title": "As Manchester United falter again, will Wolves go fourth? - Football Weekly",
-      "description": "Max Rushden is joined by Jonathan Wilson, Troy Townsend and Paul MacInnes after a busy weekend at both ends of the Premier League tableRate, review, share on Apple Podcasts, Soundcloud, Audioboom, Mixcloud, Acast and Stitcher, and join the conversation on Fac…",
-      "url": "https://www.theguardian.com/football/audio/2022/feb/14/as-manchester-united-falter-again-will-wolves-go-fourth-football-weekly",
-      "urlToImage": "https://i.guim.co.uk/img/media/d033b7c011a6aac83832707dfe88be1d18560cdf/0_100_3000_1800/master/3000.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=08a8f641f2159fca32abdeaba47fe3e7",
-      "publishedAt": "2022-02-14T13:00:57Z",
-      "content": "Rate, review, share on Apple Podcasts, Soundcloud, Audioboom, Mixcloud, Acast and Stitcher, and join the conversation on Facebook, Twitter and email.\r\nOn the podcast today; we look back at all the he… [+522 chars]"
-    },
-    {
-      "source": {
-        "id": null,
-        "name": "The Guardian"
-      },
-      "author": "Andrew Lawrence at SoFi Stadium, Inglewood",
-      "title": "LA story: in the Rams’ blockbuster victory it was their stars who shone",
-      "description": "The Super Bowl champions made aggressive moves to acquire big-time players. They combined with homegrown talent to secure the franchise’s second titleAs the confetti fell at SoFi Stadium, Odell Beckham stood alone amid the revelry, eyes welling, hands on his …",
-      "url": "https://amp.theguardian.com/sport/2022/feb/14/los-angeles-rams-super-bowl-lvi-victory-nfl-football",
-      "urlToImage": "https://i.guim.co.uk/img/media/a3cc92c35e8564a860372708211459655fef9c5a/0_84_3500_2102/master/3500.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=914c428007a78a01694ec1a65c49e8e9",
-      "publishedAt": "2022-02-14T15:47:14Z",
-      "content": "As the confetti fell at SoFi Stadium, Odell Beckham stood alone amid the revelry, eyes welling, hands on his head in disbelief. No sooner than the dazed receiver appeared on the stadiums massive vide… [+5824 chars]"
-    },
-    {
-      "source": {
-        "id": null,
-        "name": "MacRumors"
-      },
-      "author": "Juli Clover",
-      "title": "Apple Updates Support App With Repair Cost Estimates in Some Locations",
-      "description": "Apple today updated its Apple Support app designed for the iPhone and iPad, introducing a new feature that provides price estimates for common repairs in select locations.\n\n\n\n\n\nWhen using the Support app after installing the update, you can tap on a device th…",
-      "url": "https://www.macrumors.com/2022/02/14/apple-support-repair-cost-esimates/",
-      "urlToImage": "https://images.macrumors.com/t/wFLT8i0kFvk5k9DWvvVxrkYzBvY=/2000x/article-new/2022/02/apple-support-app.jpg",
-      "publishedAt": "2022-02-14T18:37:54Z",
-      "content": "Apple today updated its Apple Support app designed for the iPhone and iPad, introducing a new feature that provides price estimates for common repairs in select locations.\r\nWhen using the Support app… [+1256 chars]"
-    },
-    {
-      "source": {
-        "id": null,
-        "name": "MacRumors"
-      },
-      "author": "Hartley Charlton",
-      "title": "Apple Ranks Seventh With Over 2,500 U.S. Patents Granted in 2021",
-      "description": "Apple was granted 2,541 patents in the United States last year, surpassed by only six other companies, IFI Claims reports.\n\n\n\n\n\nIn its rankings of the top 50 U.S. patent assignees in 2021 (via Patently Apple), IFI Claims Patent Services shows that Apple was g…",
-      "url": "https://www.macrumors.com/2022/02/14/apple-ranks-seventh-with-2500-patents-in-2021/",
-      "urlToImage": "https://images.macrumors.com/t/s0l-w90t-Y2F7pACLSAwlTtSSPE=/1600x/article-new/2022/01/apple-logo-us-flag-smooth.jpg",
-      "publishedAt": "2022-02-14T16:43:24Z",
-      "content": "Apple was granted 2,541 patents in the United States last year, surpassed by only six other companies, IFI Claims reports.\r\nIn its rankings of the top 50 U.S. patent assignees in 2021 (via Patently A… [+2761 chars]"
-    },
-    {
-      "source": {
-        "id": null,
-        "name": "MacRumors"
-      },
-      "author": "Mitchel Broussard",
-      "title": "Deals: Anker's New Gold Box Sale Has Up to 40% Off USB-C and MagSafe-Compatible Accessories",
-      "description": "Anker has returned today with a new Gold Box deal on Amazon, offering discounts on over a dozen of Anker's best charging accessories. This includes USB-C to Lightning cables, USB-C wall chargers, MagSafe-compatible wireless and portable chargers, and more.\n\n\n…",
-      "url": "https://www.macrumors.com/2022/02/14/deals-ankers-new-gold-box/",
-      "urlToImage": "https://images.macrumors.com/t/Ruaq8-5yl1UbuKxEv5P07ebwdZI=/1600x/article-new/2022/02/anker-february-2022.jpg",
-      "publishedAt": "2022-02-14T16:10:07Z",
-      "content": "Anker has returned today with a new Gold Box deal on Amazon, offering discounts on over a dozen of Anker's best charging accessories. This includes USB-C to Lightning cables, USB-C wall chargers, Mag… [+1356 chars]"
-    },
-    {
-      "source": {
-        "id": null,
-        "name": "Zacks.com"
-      },
-      "author": "Nalak Das",
-      "title": "Inflation May Raise Corporate America's Profits: 5 Top Picks",
-      "description": "We have narrowed our search to five U.S. corporate giants that have given strong guidance for 2022. These are: AAPL, TSLA, XOM, COP and AMD.",
-      "url": "http://www.zacks.com/stock/news/1866902/inflation-may-raise-corporate-america-s-profits-5-top-picks?cid=CS-ENTREPRENEUR-FT-analyst_blog|investment_ideas-1866902",
-      "urlToImage": "https://assets.entrepreneur.com/providers/zacks/hero-image-zacks-418450.jpeg",
-      "publishedAt": "2022-02-14T11:38:00Z",
-      "content": "Wall Street has been reeling under severe volatility since the beginning of this year after performing impressively in the last two pandemic-ridden years. Anticipation of a tougher-than-expected stan… [+9423 chars]"
-    },
-    {
-      "source": {
-        "id": null,
-        "name": "MacRumors"
-      },
-      "author": "Sami Fathi",
-      "title": "Apple Files New Macs in Regulatory Database Ahead of Rumored Spring Event",
-      "description": "Apple has filed three new unreleased Mac computers in the Eurasian Economic Database ahead of when the company is expected to hold a rumored Spring event on or around March 8, as first spotted by Consomac. \n\n\n\n\n\nThe three new Macs, listed with model numbers A…",
-      "url": "https://www.macrumors.com/2022/02/14/apple-files-new-macs-ahead-spring-event/",
-      "urlToImage": "https://images.macrumors.com/t/Fq6lHhAFVlCGdmLBiPjkhPU3-i0=/3056x/article-new/2021/04/tim-cook-spring-loaded-event.jpg",
-      "publishedAt": "2022-02-14T09:20:28Z",
-      "content": "Apple has filed three new unreleased Mac computers in the Eurasian Economic Database ahead of when the company is expected to hold a rumored Spring event on or around March 8, as first spotted by Con… [+799 chars]"
-    },
-    {
-      "source": {
-        "id": null,
-        "name": "MacRumors"
-      },
-      "author": "Juli Clover",
-      "title": "2022 Mini-LED iMac Pro Could Launch in June",
-      "description": "Apple's upcoming iMac Pro with a mini-LED display could launch in June, analyst Ross Young said today. Apple has been working on a larger-screened version of the ‌iMac‌ for months now, and if the June timeline is accurate, it could see a debut at the Worldwid…",
-      "url": "https://www.macrumors.com/2022/02/14/imac-pro-2022-june-launch/",
-      "urlToImage": "https://images.macrumors.com/t/cz6OHKoATPugpNQoxRXqJW5eBfQ=/1626x/article-new/2022/01/iMac-Pro-2022-27-and-24-iMac.jpg",
-      "publishedAt": "2022-02-14T17:37:01Z",
-      "content": "Apple's upcoming iMac Pro with a mini-LED display could launch in June, analyst Ross Young said today. Apple has been working on a larger-screened version of the ‌iMac‌ for months now, and if the Jun… [+1047 chars]"
-    },
-    {
-      "source": {
-        "id": null,
-        "name": "Slashdot.org"
-      },
-      "author": "msmash",
-      "title": "The End of Free Google Storage for Education",
-      "description": "An anonymous reader shares a report: In 2014, Google made a remarkable offer: anyone with a Google Apps for Education account in the US got unlimited storage for free. The logic was sound at the time. Three years earlier, the tech giant had launched the Chrom…",
-      "url": "https://hardware.slashdot.org/story/22/02/14/1433256/the-end-of-free-google-storage-for-education",
-      "urlToImage": "https://a.fsdn.com/sd/topics/storage_64.png",
-      "publishedAt": "2022-02-14T14:43:00Z",
-      "content": "In 2014, Google made a remarkable offer: anyone with a Google Apps for Education account in the US got unlimited storage for free. The logic was sound at the time. Three years earlier, the tech giant… [+1261 chars]"
-    },
-    {
-      "source": {
-        "id": null,
-        "name": "Slashdot.org"
-      },
-      "author": "msmash",
-      "title": "How Fake Song Lyrics Ended Up On Spotify",
-      "description": "DevNull127 writes: More bad news for Spotify from Conde Naste via their music site Pitchfork: \n\nLast month, in the tone of a band reluctantly summoned from some deep seabed, My Bloody Valentine issued a prickly public service announcement: \"Just noticed that …",
-      "url": "https://entertainment.slashdot.org/story/22/02/14/2011241/how-fake-song-lyrics-ended-up-on-spotify",
-      "urlToImage": "https://a.fsdn.com/sd/topics/music_64.png",
-      "publishedAt": "2022-02-14T20:45:00Z",
-      "content": "More bad news for Spotify from Conde Naste via their music site Pitchfork:Last month, in the tone of a band reluctantly summoned from some deep seabed, My Bloody Valentine issued a prickly public ser… [+1482 chars]"
-    },
-    {
-      "source": {
-        "id": null,
-        "name": "Slashdot.org"
-      },
-      "author": "BeauHD",
-      "title": "Coinbase Swears This All Isn't Like the Dotcom Bubble After Super Bowl Ad SNAFU",
-      "description": "An anonymous reader quotes a report from Motherboard: The most insufferable part of every Super Bowl Sunday has historically, without fail, been the ads. This year was no exception, with an unrelenting barrage of ads trying to manifest the metaverse, convince…",
-      "url": "https://slashdot.org/story/22/02/14/2242253/coinbase-swears-this-all-isnt-like-the-dotcom-bubble-after-super-bowl-ad-snafu",
-      "urlToImage": "https://a.fsdn.com/sd/topics/bitcoin_64.png",
-      "publishedAt": "2022-02-14T23:50:00Z",
-      "content": "The most insufferable part of every Super Bowl Sunday has historically, without fail, been the ads. This year was no exception, with an unrelenting barrage of ads trying to manifest the metaverse, co… [+2390 chars]"
-    },
-    {
-      "source": {
-        "id": "business-insider",
-        "name": "Business Insider"
-      },
-      "author": "insider@insider.com (Adriana Nunez)",
-      "title": "Affirm hopes to prop up financials with new tie-ups and features following Twitter blunder",
-      "description": "Buy now, pay later (BNPL) company Affirm reported a 115% year over year (YoY) surge in gross merchandise volume (GMV) for its fiscal Q2 2022.",
-      "url": "https://www.businessinsider.com/affirm-posts-strong-gross-merchandise-volume-for-q2-2022-2",
-      "urlToImage": "https://i.insider.com/612e71cf9ef1e50018f8feb1?width=1200&format=jpeg",
-      "publishedAt": "2022-02-14T15:13:46Z",
-      "content": "By the numbers: US-based buy now, pay later (BNPL) company Affirm reported a 115% year over year (YoY) surge in gross merchandise volume (GMV) for its fiscal Q2 2022 quarter (ended December 31, 2021)… [+2563 chars]"
+      "title": "Животные",
+      "description": "Я люблю животных",
+      "createdAt": "16.02.2022",
+      "isApproved": true,
+      "url": "",
+      "id": 16
     }
   ]
 }

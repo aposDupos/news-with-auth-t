@@ -1,9 +1,9 @@
 import React from 'react';
 import "./styles/main.scss"
 import {Routes, Route} from 'react-router-dom'
-import {MainPage} from "./pages/MainPage";
-import {NewsPage} from "./pages/NewsPage";
 import BaseLayout from "./layouts/BaseLayout";
+import MainPage from "./pages/MainPage";
+import NewsPage from "./pages/NewsPage";
 
 function App() {
     return (

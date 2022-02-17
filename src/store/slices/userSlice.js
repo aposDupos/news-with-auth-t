@@ -8,7 +8,8 @@ const initialState = {
     login: null,
     password: null,
     name: null,
-    isAdmin: null
+    isAdmin: null,
+    error: ''
 }
 
 export const userLogin = createAsyncThunk(
@@ -22,7 +23,7 @@ export const userLogin = createAsyncThunk(
             }
             thunkAPI.dispatch(setUser(data[0]))
         } catch (e) {
-            console.log(e)
+            thunkAPI.dispatch(setError(e.message))
         }
     }
 )
@@ -40,8 +41,11 @@ const userSlice = createSlice({
             Object.keys(state).forEach(key => {
                 state[key] = null
             })
+        },
+        setError(state, action){
+           state.error = action.payload
         }
     }
 })
-export const {setUser, removeUser} = userSlice.actions
+export const {setUser, removeUser, setError} = userSlice.actions
 export default userSlice.reducer

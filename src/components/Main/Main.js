@@ -7,7 +7,6 @@ export const Main = () => {
     return (
         <div className={styles.content}>
             <div className={styles.contentItem}>Привет, {!!name ? name : 'Гость'}!</div>
-            <div className={styles.contentItem}></div>
         </div>
     )
 }

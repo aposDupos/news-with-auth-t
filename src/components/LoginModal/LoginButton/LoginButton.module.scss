@@ -1,15 +1,5 @@
 @import "../../../styles/variables";
 
 .button {
-  width: 80px;
   height: 100%;
-  border-radius: 4px;
-  background-color: $coral;
-  color: #ffffff;
-  font-size: 18px;
-  cursor: pointer;
-  &:disabled{
-    cursor: unset;
-    background-color: lighten($coral, 10%);
-  }
 }

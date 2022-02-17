@@ -4,6 +4,7 @@ import classNames from "classnames";
 import {ModalContext} from "../../../context/modal/modalContext";
 import {useDispatch, useSelector} from "react-redux";
 import {removeUser} from "../../../store/slices/userSlice";
+import Button from "../../Button";
 
 export const LoginButton = ({className}) => {
     const {toggleModal, modal} = useContext(ModalContext)
@@ -17,13 +18,13 @@ export const LoginButton = ({className}) => {
         }
     }
     return (<>
-            <button
+            <Button
                 className={classNames(className, styles.button)}
                 onClick={onClick}
                 disabled={!!modal.isActive}
             >
                 {!login ? 'Войти' : 'Выйти'}
-            </button>
+            </Button>
         </>
     )
 }
