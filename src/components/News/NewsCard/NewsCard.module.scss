@@ -1,0 +1,32 @@
+@import "../../../styles/variables";
+.card{
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 16px;
+  box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
+  min-width: 256px;
+  max-width: 512px;
+  &Heading{
+    font-size: 24px;
+    color: $darkBlue;
+  }
+  &Desc{
+    font-size: 18px;
+    margin-top: 1rem;
+  }
+  &Date{
+    color: $blue;
+    font-size: 12px;
+    margin-top: 2rem;
+  }
+  &Button{
+    position: absolute;
+    right: 16px;
+    bottom: 16px;
+
+  }
+}
+.top{
+}
