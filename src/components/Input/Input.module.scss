@@ -1,0 +1,23 @@
+@import "../../styles/variables";
+
+.input {
+  display: grid;
+  grid-template-columns: minmax(80px, 120px) 1fr;
+
+  &Field {
+    padding: 6px 10px;
+
+    outline: $blue 1px solid;
+    font-size: 14px;
+    border-radius: 4px;
+    transition: 50ms ease-in-out;
+
+    &:focus {
+      outline: $darkBlue 2px solid;
+    }
+  }
+
+  &Label {
+    color: $blackBlue;
+  }
+}
