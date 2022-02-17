@@ -1,9 +1,11 @@
-import React, {useContext} from "react";
-import {ModalContext} from "../../context/modal/modalContext";
+import React from "react";
 import styles from "./Modal.module.scss"
+import {useModal} from "../../context/modal/ModalState";
+import {useSelector} from "react-redux";
 
 export const Modal = ({children}) => {
-    const {modal: {isActive}} = useContext(ModalContext)
+    const {modal: {isActive}} = useModal()
+    const {error} = useSelector(state => state.user)
     return (
         <>
             {isActive &&

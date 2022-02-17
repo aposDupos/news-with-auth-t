@@ -1,4 +1,4 @@
-import {useReducer} from "react";
+import {useContext, useReducer} from "react";
 import {TOGGLE_MODAL} from "../types";
 import {ModalContext} from "./modalContext";
 import {modalReducer} from "./modalReducer";
@@ -17,3 +17,4 @@ export const ModalState = ({children}) => {
         </ModalContext.Provider>
     )
 }
+export const useModal = () => useContext(ModalContext)
