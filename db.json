@@ -5,14 +5,14 @@
       "isAdmin": true,
       "login": "admin",
       "name": "Alex",
-      "password": "1234qwe"
+      "password": "admin"
     },
     {
       "id": 2,
       "isAdmin": false,
       "login": "guest",
       "name": "Vlad",
-      "password": "1234qwe"
+      "password": "guest"
     }
   ],
   "news": [
@@ -49,20 +49,28 @@
       "isApproved": true
     },
     {
-      "id": 9,
-      "title": "iPhone maker Foxconn to make chips in India with Vedanta - Reuters",
-      "description": "iPhone maker Foxconn to make chips in India with Vedanta - Reuters",
-      "url": "https://www.reuters.com/technology/iphone-maker-foxconn-make-chips-india-with-vedanta-2022-02-14/",
-      "createdAt": "16.02.2022",
-      "isApproved": false
-    },
-    {
       "title": "Животные",
       "description": "Я люблю животных",
       "createdAt": "16.02.2022",
       "isApproved": true,
       "url": "",
       "id": 16
+    },
+    {
+      "title": "Ноутбуки",
+      "description": "Ноутбуки",
+      "createdAt": "17.02.2022",
+      "isApproved": true,
+      "url": "",
+      "id": 17
+    },
+    {
+      "title": "Соки",
+      "description": "Апельсиновый сок",
+      "createdAt": "17.02.2022",
+      "isApproved": true,
+      "url": "",
+      "id": 18
     }
   ]
 }

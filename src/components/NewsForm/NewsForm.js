@@ -1,7 +1,7 @@
 import React, {useState} from "react";
 import Input from "../Input";
 import Button from "../Button";
-import moment from "moment";
+import dayjs from "dayjs";
 import styles from './NewsForm.module.scss'
 import {useDispatch} from "react-redux";
 import {createNews} from "../../store/slices/newsSlice";
@@ -11,7 +11,7 @@ export const NewsForm = () => {
     const [description, setDesc] = useState('')
     const dispatch = useDispatch()
     const onSubmit = (e) => {
-        const createdAt = moment().format('DD.MM.YYYY')
+        const createdAt = dayjs().format('DD.MM.YYYY')
         const payload = {
             title,
             description,
