@@ -1,7 +1,7 @@
 import {createAsyncThunk, createSlice} from "@reduxjs/toolkit";
 import {getById, isEmpty} from "../../utils/api";
 
-const BASE_URL = 'http://localhost:3001/news'
+const BASE_URL = 'https://my-json-server.typicode.com/aposDupos/news-with-auth-t-db/news'
 const initialState = {
     news: [],
     search: ''
