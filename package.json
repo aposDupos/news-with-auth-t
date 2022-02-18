@@ -18,11 +18,7 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-scripts build",
-    "server": "json-server --watch db.json -p 3001 -d 500",
-    "serve": "concurrently \"npm run start\" \"npm run server\"",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "build": "react-scripts build"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -38,6 +34,5 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  },
-  "homepage": "https://aposdupos.github.io/news-with-auth-t"
+  }
 }
