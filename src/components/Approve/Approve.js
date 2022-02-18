@@ -1,5 +1,5 @@
 import React from "react";
-import {useDispatch, useSelector} from "react-redux";
+import {useSelector} from "react-redux";
 import {ApproveButton} from "./ApproveButton";
 import NewsCard from "../News/NewsCard";
 import styles from './Approve.module.scss'
