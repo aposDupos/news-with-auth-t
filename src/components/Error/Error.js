@@ -12,7 +12,7 @@ export const Error = () => {
                 dispatch(setError(''))
             }, 3000)
         }
-    }, [error])
+    }, [error, dispatch])
     return (
         <>
             {error &&

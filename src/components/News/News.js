@@ -21,12 +21,8 @@ export const News = () => {
             {!!login ? isAdmin ? <Approve/> : <NewsForm/> : undefined}
             <div className={styles.container}>
                 {searchFilter(news, search)
-                    .filter(item => {
-                        if (item.isApproved) return item
-                    })
-                    .map(item => {
-                        return <NewsCard key={item.id} newsItem={item}/>
-                    })
+                    .filter(item => item.isApproved)
+                    .map(item => <NewsCard key={item.id} newsItem={item}/>)
                 }
             </div>
         </>

@@ -1,7 +1,7 @@
 import {createAsyncThunk, createSlice} from "@reduxjs/toolkit";
 import {isEmpty} from "../../utils/api";
 
-export const BASE_URL = 'https://my-json-server.typicode.com/aposDupos/news-with-auth-t-db/users'
+export const BASE_URL = 'https://db-news-with-auth.herokuapp.com/users'
 
 const initialState = {
     id: null,

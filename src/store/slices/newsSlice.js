@@ -1,7 +1,7 @@
 import {createAsyncThunk, createSlice} from "@reduxjs/toolkit";
 import {getById, isEmpty} from "../../utils/api";
 
-const BASE_URL = 'https://my-json-server.typicode.com/aposDupos/news-with-auth-t-db/news'
+const BASE_URL = 'https://db-news-with-auth.herokuapp.com/news'
 const initialState = {
     news: [],
     search: ''
@@ -49,7 +49,7 @@ export const newsApprove = createAsyncThunk(
         try {
             const {news: {news}} = thunkAPI.getState()
             const currentNews = getById(id, news)
-            const res = await fetch(
+            await fetch(
                 `${BASE_URL}/${id}`,
                 {
                     method: 'PUT',
@@ -71,7 +71,7 @@ export const createNews = createAsyncThunk(
     'news/createNews',
     async (payload, thunkAPI) => {
         try {
-            const res = await fetch(
+            await fetch(
                 BASE_URL,
                 {
                     method: "POST",
@@ -94,18 +94,14 @@ const newsSlice = createSlice({
         setNews(state, action) {
             state.news = [...action.payload]
         },
-        setSearch(state, action){
-            state.search =  action.payload
+        setSearch(state, action) {
+            state.search = action.payload
         }
     },
     extraReducers: (builder) => {
         builder
             .addCase(removeOneNews.fulfilled, (state, action) => {
-                state.news = state.news.filter(item => {
-                    if (action.payload !== item.id) {
-                        return item
-                    }
-                })
+                state.news = state.news.filter(item => action.payload !== item.id)
             })
             .addCase(newsApprove.fulfilled, (state, action) => {
                 state.news.forEach((item, index) => {
@@ -113,7 +109,7 @@ const newsSlice = createSlice({
                 })
             })
             .addCase(createNews.fulfilled, (state, action) => {
-                const id = state.news[state.news.length-1].id + 1
+                const id = state.news[state.news.length - 1].id + 1
                 state.news.push({...action.payload, id})
             })
     }

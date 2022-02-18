@@ -1,8 +1,8 @@
 import React, {useState} from "react";
 import styles from './Search.module.scss'
 import Input from "../Input";
-import {useDispatch, useSelector} from "react-redux";
-import {setNews, setSearch} from "../../store/slices/newsSlice";
+import {useDispatch} from "react-redux";
+import {setSearch} from "../../store/slices/newsSlice";
 
 export const Search = () => {
     const [query, setQuery] = useState('')
